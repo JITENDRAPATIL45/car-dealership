@@ -1,0 +1,121 @@
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    border-bottom: 4px solid #F58220;
+}
+
+.primary-text {
+    color: #0B2A4A;
+}
+
+.secondery-text {
+    color: #F58220;
+}
+
+.primary-bg {
+    background-color: #F7F9FC;
+}
+
+.secondery-bg {
+    background-color: #0B2A4A;
+}
+
+.third-bg{
+    background-color: #F58220;
+}
+
+.nav-link:hover {
+    color: #0B2A4A;
+    background-color: #F58220;
+    border: 2px solid #0B2A4A;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.active-menu {
+    color: #0B2A4A;
+    background-color: #F58220;
+    border: 2px solid #0B2A4A;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.secodery-btn {
+    color: #0B2A4A;
+    background-color: #F58220;
+    
+}
+
+.secodery-btn:hover {
+    color: #F58220;
+    background-color: #0B2A4A;
+    border: 4px solid #F58220;
+}
+
+.primary-btn {
+    color: #F58220;
+    background-color: #0B2A4A;
+    border: 4px solid #F58220;
+}
+
+.primary-btn:hover {
+    color: #0B2A4A;
+    background-color: #F58220;
+    border: 4px solid #0B2A4A;
+}
+
+.normal-btn{
+    color: #F58220;
+    background-color: #0B2A4A;
+    border-radius: 6px;
+}
+
+.normal-btn:hover{
+    color: #0B2A4A;
+    background-color: #F58220;
+    border-radius: 6px;
+    transform: scale(1.1);
+}
+
+.card {
+    background-color: #F58220;
+    color: #0B2A4A;
+}
+
+.card:hover {
+    background-color: #0B2A4A;
+    color: #F58220;
+    border: 4px solid #F58220;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.icon_size{
+    font-size: 50px;
+}
+
+.align_center{
+    display: flex;
+    justify-content: center;
+
+}
+.bi-pin-map-fill{
+    font-size: 25px;
+    color: #0B2A4A;
+}
+.bi-telephone{
+    font-size: 25px;
+    color: #0B2A4A;
+}
+
+.card_height{
+    height: 530px;
+}
+.services_card_height{
+    height: 380px;
+}
+
