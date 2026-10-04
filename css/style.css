@@ -1,8 +1,43 @@
-header {
+/* header {
     position: sticky;
     top: 0px;
     z-index: 1000;
     border-bottom: 4px solid #F58220;
+} */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    border-bottom: 2px solid #F58220;
+}
+
+.navbar {
+    min-height: 75px;
+}
+
+.navbar-brand img {
+    width: 90px;
+    height: auto;
+}
+
+.nav-link {
+    margin: 0 4px;
+    padding: 10px 14px !important;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0B2A4A !important;
+    background-color: #F58220;
+}
+
+.active-menu {
+    color: #0B2A4A !important;
+    background-color: #F58220;
+    border: none;
+    border-radius: 6px;
 }
 
 .primary-text {
@@ -25,7 +60,7 @@ header {
     background-color: #F58220;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
     color: #0B2A4A;
     background-color: #F58220;
     border: 2px solid #0B2A4A;
@@ -39,7 +74,7 @@ header {
     border: 2px solid #0B2A4A;
     padding-top: 2px;
     padding-bottom: 2px;
-}
+} */
 
 
 .secodery-btn {
